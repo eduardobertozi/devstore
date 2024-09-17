@@ -4,7 +4,9 @@ const nextConfig = {
     domains: ['localhost', 'github.com'],
   },
   logging: {
-    fetches: true,
+    fetches: {
+      fullUrl: false,
+    },
   },
 }
 
