@@ -1,13 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import { api } from '@/data/api'
-import { Product } from '@/data/types/product'
-import { env } from '@/env'
 import { ImageResponse } from 'next/og'
 import colors from 'tailwindcss/colors'
 
+import { api } from '@/data/api'
+import { Product } from '@/data/types/product'
+import { env } from '@/env'
+
 export const runtime = 'edge'
 
-export const alt = 'About Acme'
+export const alt = ''
 export const size = {
   width: 1200,
   height: 630,
